@@ -1,0 +1,6 @@
+CREATE TABLE aluno (
+id_aluno SERIAL PRIMARY KEY,
+nome VARCHAR(30) not NULL,
+endereço VARCHAR(30) NOT NULL,
+email VARCHAR(30) not NULL
+)

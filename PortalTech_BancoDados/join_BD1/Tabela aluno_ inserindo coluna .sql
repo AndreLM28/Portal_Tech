@@ -1,0 +1,1 @@
+ alter TABLE aluno add COLUMN matricula INT NOT NULL
