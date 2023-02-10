@@ -1,0 +1,146 @@
+:root {
+--red: #Da2535;
+--gray: #616161;
+--black: #292929;
+--White: #fbfbfb;
+--white-200: #f3f3f3;
+}
+
+* {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    font-family:'Montserrat',sans-serif;
+ }
+
+ img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+ }
+
+.container {
+    width: 100%;
+    max-width: 1080px;
+    padding: 0 1.5px;
+    margin: 0 auto;
+ }
+
+ /* header */
+ .s-header{
+    padding: 40px 0;
+ }
+
+
+ .s-header .wrapper {
+   display: flex;
+   justify-content: space-between;
+   padding: 1.5rem 1rem;;
+   align-items: center;
+   gap: 200px;
+}
+ nav ul {
+    display: flex;
+    gap: 91px;
+ }
+
+ .btn-transparent {
+   background-color: transparent;
+   width: 190px;
+   border: 2px solid #292929;
+   padding: 10px 15px;
+   border-radius: 5px;
+   font-weight: 600;
+   font-size: 1.2rem;
+   cursor: pointer;
+ }
+
+ .nav-bar{
+   display: flex;
+   align-items: center;
+ }
+
+ .figure-logo {
+    width: 200px;
+ }
+ .image-logo{
+    width: 100%;
+    height: 100%;
+ } 
+
+ li {
+   font-size: 1.5rem;
+   font-weight: 400;
+}
+
+
+ /* main */
+/* S-RERO */
+.s-hero .wrapper {
+    display: flex;
+    align-items: center;
+    gap: 308;
+ }
+
+ .s-hero .area-image {
+    width: 400px;
+    height: 534px;
+ }
+
+ .s-hero .area-text{
+    width: 100%;
+    max-width: 520px;
+    height: 300px;
+ }
+ 
+ .area-text .title{
+    font-size: 32px;
+    font-weight: 600;
+    color: var(--black);
+ }
+
+.s-hero .area-text .description{
+    padding: 24px 0 48px;
+
+}
+ .area-text .description{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 18px;
+    width: 100%;
+    max-width: 400px;
+    color: var(--black);
+ }
+
+ .btn-red{
+    color: var(--White);
+    background: var(--red);
+    padding: 10px 40px;
+    border-radius: 10px;
+
+ }
+
+ /* S-TRADITIONAL */
+ .s-tradicional .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 124px;
+
+ }
+
+ .s-tradicional .area-image{
+    width: 604px;
+    height: 500px;
+    
+
+
+ }
+
+ .s-tradicional .image-prato {
+    border-radius: 16px;
+}

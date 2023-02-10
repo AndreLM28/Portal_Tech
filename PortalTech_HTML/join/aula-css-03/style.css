@@ -1,0 +1,87 @@
+
+header {
+  background-color: lightgray;
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.proz-home {
+  background-color: #59378d;
+  height: 100vh; /*  altura da visualização para o dispositivo que esta abrindo o site */
+  color: white;
+}
+.proz-home-header-nav {
+  /* background-color: #EF7D19; */
+  list-style-type: none;
+
+}
+
+.proz-home-header-nav-list {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  cursor: pointer;
+  
+}
+
+.proz-home-header-nav , .proz-home-header-nav-list, .proz-home-header-nav-list-text {
+  padding-left: 16px;
+}
+
+.proz-home-header-nav-list-text {
+  list-style-type: none;
+  
+}
+
+.list-text {
+  text-decoration: none;
+}
+.proz-main {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  padding: 0px 566px ;
+}
+
+.proz-main-titles{
+  align-self: flex-start;
+  padding: 0px 20px;
+
+
+}
+
+.proz-main-title {
+  font-size: 48px;
+  margin: 32.16px 0px 0px 0px;
+}
+
+.proz-main-subtitle {
+  font-size: 20px;
+  margin: 0px 0px 16.6px 0px;
+
+}
+
+
+.proz-description-section{
+  display: flex;
+  gap: 40px;
+  margin-top: 1px;
+
+}
+
+.proz-description-services-one , .proz-description-services-two {
+   background: url(img/bg_laranja.jpg);
+   border-radius: 12px;
+   width: 300px;
+   height: 200px;
+   padding: 20px;
+}
+
+.proz-description-services-title-one, .proz-description-services-title-two {
+  margin-bottom: 16px;
+
+}
